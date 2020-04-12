@@ -1,5 +1,11 @@
 #Squares each element in an array
 #Returns a new array of these squared numbers
+
 def square_array(array)
-while array.length<
+  i=0
+  squares = []
+while i<array.length {
+  squares.push(array[i]**2)
+}
+squares
 end
