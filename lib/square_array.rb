@@ -6,6 +6,7 @@ def square_array(array)
   squares = []
 while i<array.length {
   squares.push(array[i]**2)
+  i+=1
 }
 squares
 end
